@@ -25,9 +25,9 @@ function longPlaneteerCalls(words) {
     if (word.length > 4) {
       return true;
     };
-  }
+  };
   return false;
-}
+};
 
 // Find The Cheese //
 function findTheCheese (foods) {
