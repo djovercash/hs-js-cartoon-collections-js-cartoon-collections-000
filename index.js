@@ -1,7 +1,7 @@
 function dwarfRollCall(dwarves) {
   var dwarves = ["Dopey", "Grumpy", "Bashful"];
   for (var i = 0; i < dwarves.length; i++) {
-    return ((i+1) + ". " + dwarves[i] + " ");
+    document.write((i+1) + ". " + dwarves[i] + " ");
   };
 };
 
