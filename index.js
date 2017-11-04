@@ -9,13 +9,13 @@ function dwarfRollCall(dwarves) {
 
 // Summon Captain Planet //
 
-function summonCaptainPlanet(veggies){
-  var upperCaseVeggies = [];
-  for (var i = 0; i < veggies.length; i++) {
-    var veg = veggies[i];
-    upperCaseVeggies.push(veg.toUpperCase() + "!");
+function summonCaptainPlanet(planeteerCalls){
+  var upperCaseCalls = [];
+  for (var i = 0; i < planeteerCalls.length; i++) {
+    var power = planeteerCalls[i];
+    upperCaseCalls.push(power.toUpperCase() + "!");
   };
-  return upperCaseVeggies;
+  return upperCaseCalls;
 };
 
 // Long Planeteer Calls //
