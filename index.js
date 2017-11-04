@@ -29,5 +29,14 @@ function longPlaneteerCalls(words) {
   return false;
 }
 
+// Find The Cheese //
 function findTheCheese (foods) {
-}
+  var cheese = 'cheddar';
+  for (var i = 0; i < foods.length; i++) {
+    var food = foods[i];
+    if (cheese.indexOf(food) > -1) {
+      return food;
+    }; 
+  };
+  return "no cheese!";
+};
