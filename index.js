@@ -6,8 +6,6 @@ function dwarfRollCall(dwarves) {
   };
 };
 
-dwarfRollCall();
-
 function summonCaptainPlanet(planeteerCalls){
 }
 
